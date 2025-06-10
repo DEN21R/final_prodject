@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wraper">
+        <header class="header">
+
+            <div class="header-search-bar">
+                <div  >
+                    <a href="./index.html"  class="header-logo"></a>
+                </div>
+                <div class="input-wrapper">
+                    <button class="search-icon-btn"></button>
+                    <input type="text" class="header-events" placeholder="Search events">
+                </div>
+
+                <div class="input-wrapper">
+                    <button class="search-icon-btn region"></button>
+                    <input type="text" class="header-search" placeholder="Search region">
+                </div>
+                <button class="header-search-btn"></button>
+            </div>
+
+
+            <div class="header-buttons">
+                <button class="header-english"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/></svg>English</button>
+                <a href="" class="header-login">Log in</a>
+                <button class="header-sign">Sign up</button>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="intro">
+                <div class="intro-left">
+                    <h2>Events near New York, NY</h2>
+                </div>
+                <div class="intro-right">
+                    <p>Find events near</p>
+                    <h3>New York, NY</h3>
+                </div>
+                
+            </div>
+            <a href="" class="intro-bottom">Events</a>
+
+            <div class="main-map">
+              <button class="main-map-button"></button>    
+            </div>
+            
+
+
+
+
+            <div class="filters">
+            <div class="custom-select" id="type-select">
+                <div class="selected" id="selcted"><span>Any type</span> <img src="./image/Vector (8).png" alt=""></div>
+                <div class="options">
+                    <div class="option" value="">All types</div>
+                    <div class="option"value="online">Online</div>
+                    <div class="option" value="offline">Offline</div>
+                </div>
+
+            </div>
+            <div class="custom-select" id="distance-select" >
+                <div class="selected">Any distance <img src="./image/Vector (8).png" alt=""></div>
+                <div class="options column-second">
+                    <div class="option" value="">All distance</div>
+                    <div class="option" value="5">5 km</div>
+                    <div class="option"value="10">10 km</div>
+                    <div class="option" value="15">15 km</div>
+                    <div class="option" value="25">25 km</div>
+                    <div class="option" value="75">75 km</div>
+                    <div class="option" value="50">50 km</div>
+                    <div class="option" value="100">100 km</div>
+                </div>
+
+            </div>
+            <div class="custom-select" id="category-select" >
+                <div class="selected">Any category <img src="./image/Vector (8).png" alt=""></div>
+                <div class="options column-third">
+                    <div class="option" value="">All category</div>
+                    <div class="option"value="Social Activities">Social Activities</div>
+                    <div class="option"value="Hobbies and Passions">Hobbies and Passions</div>
+                    <div class="option"value="Health and Wellbeing">Health and Wellbeing</div>
+                    <div class="option"value="Business">Business</div>
+                </div>
+
+            </div>
+        </div>
+          <div id="events-container" class="events-container"></div>
+        </div>
+
+
+
+      
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer-top">
+                <h3 class="footer-title">Create your own Meetup group</h3>
+                <button class="footer-btn">Get Started</button>
+            </div>
+            <div class="footer-links">
+                <div class="nav-column">
+                    <h3 class="nav-title">Your Account</h3>
+                    <a href="" class="link-white">Sign up</a>
+                    <a href="" class="link-white">Log in</a>
+                    <a href="" class="link-white">Help</a>
+                    <a href="" class="link-white">Become an Affiliate</a>
+                </div>
+                 <div class="nav-column">
+                    <h3 class="nav-title">Discover</h3>
+                    <a href="" class="link-white">Groups</a>
+                    <a href="" class="link-white">Calendar</a>
+                    <a href="" class="link-white">Topics</a>
+                    <a href="" class="link-white">Cities</a>
+                    <a href="" class="link-white">Online Events</a>
+                    <a href="" class="link-white">Local Guides</a>
+                    <a href="" class="link-white">Make Friends</a>
+                </div>
+                 <div class="nav-column">
+                    <h3 class="nav-title">Meetup</h3>
+                    <a href="" class="link-white">About</a>
+                    <a href="" class="link-white">Blog</a>
+                    <a href="" class="link-white">Meetup Pro</a>
+                    <a href="" class="link-white">Careers</a>
+                    <a href="" class="link-white">Apps</a>
+                    <a href="" class="link-white">Podcast</a>
+                </div>
+
+
+            </div>
+            <div class="footer-social">
+                 <h3 class="nav-title bottom-title">Follow us</h3>
+                 <div class="section-social">
+                    <div class="section-social-left">
+                            <a href="#"><img src="./image/facebook.png" alt="Facebook" /></a>
+                            <a href="#"><img src="./image/twitter.png" alt="twitter" /></a>
+                            <a href="#"><img src="./image/Link - Meetup on YouTube → SVG.png" alt="YouTube" /></a>
+                            <a href="#"><img src="./image/inst.png" alt="instagram" /></a>
+                            <a href="#"><img src="./image/tiktok.png" alt="tiktok" /></a>
+                        </div>
+                        <div class="section-social-right">
+                            <a href="#"><img src="./image/google.svg fill.png" alt=""></a>
+                             <a href="#"><img src="./image/appStore.svg fill (1).png" alt=""></a>
+                        </div>
+                
+                 </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="nav-title bottom-title">© 2024 Meetup</p>
+                <a href="" class="link-white">Terms of Service</a>
+                <a href="" class="link-white">Privacy Policy</a>
+                <a href="" class="link-white">Do Not Sell or Share My Personal Data</a>
+                <a href="" class="link-white">Careers</a>
+                <a href="" class="link-white">Apps</a>
+            </div>
+
+
+        </footer>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
