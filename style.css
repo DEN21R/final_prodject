@@ -45,7 +45,7 @@ body{
   top: -48px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-logo{
       left: -20px;
 }
@@ -61,7 +61,7 @@ body{
         top: 65px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-search-bar{
         width: 342px;
 }
@@ -118,7 +118,7 @@ body{
         width: 342px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-events{
         width: 262px;
 }
@@ -174,7 +174,7 @@ body{
         right: 165px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-buttons{
         right: 4px;
 }
@@ -186,7 +186,7 @@ body{
     font-size: 14px;
     line-height: 20px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-login{
     font-size: 12px;
    
@@ -204,7 +204,7 @@ body{
     font-weight: 500;
     font-size: 14px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-english{
     font-size: 12px;  
 }
@@ -221,7 +221,7 @@ body{
     font-size: 14px;
     line-height: 20px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .header-sign{
     border-radius: 6.83px;
     height: 30.76px;
@@ -250,7 +250,7 @@ body{
         padding-right: 50.34px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main{
         padding-left: 16px;
         padding-right: 16px;
@@ -274,7 +274,7 @@ body{
    display: block;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main-banner{
   padding-bottom: 0;
 }
@@ -285,7 +285,7 @@ body{
     font-size: 42px;
     line-height: 52px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .banner-title{  
     font-weight: 700;
     font-size: 25px;
@@ -301,7 +301,7 @@ body{
     line-height: 24px;
     color: #212121;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .main-text{    
     font-size: 12px;
 }
@@ -322,12 +322,12 @@ body{
         justify-content: center;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .banner-logo{
       margin-top: 20px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .banner-logo img{
        width: 215px;
        height: 152px;
@@ -357,7 +357,7 @@ body{
     background-position: 250px center; 
     border-radius: 8px;  
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .main-card-input{
     font-size: 13.71px;
     line-height: 16.45px;
@@ -424,7 +424,7 @@ body{
         gap: 10px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .block-content{
         gap: 0;
 }
@@ -442,7 +442,7 @@ body{
         margin-bottom: 0;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .block-text{   
     font-weight: 400;
     font-size: 8.58px;
@@ -482,7 +482,7 @@ body{
     margin: 0;
     text-transform: uppercase;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
   .block-date{   
     font-weight: 500;
     font-size: 8.58px;
@@ -512,7 +512,7 @@ body{
     font-size: 28px;
     line-height: 36px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .main-title{
     font-weight: 600;
     font-size: 20px;
@@ -572,7 +572,7 @@ body{
     position: relative;
 }
 }
-@media (max-width:391px){
+@media (max-width:430px){
    .main-block{
    padding: 16px 11px;
 }
@@ -583,12 +583,12 @@ body{
     height: 136.8px;
 }
 }
-@media (max-width:391px){
+@media (max-width:430px){
    .marg{
    margin-bottom:150px;
 }
 }
-@media (max-width:391px){
+@media (max-width:430px){
    .main-block-img{
     position: absolute;
     top: 56px;
@@ -607,7 +607,7 @@ body{
     text-align: center;
     cursor: pointer;
 }
-@media (max-width:391px){
+@media (max-width:430px){
   .block-btn{
    width: 192px;
    margin-left: 60px;
@@ -617,7 +617,7 @@ body{
     margin-top:64px;
     margin-bottom: 24px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .exp{
    margin-bottom: 0;
 }
@@ -637,7 +637,7 @@ body{
    flex-wrap: wrap;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main-explore{
    justify-content: center;
 }
@@ -667,7 +667,7 @@ body{
    height: 112px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .explore-cat{
   justify-content: flex-start;
   padding-top: 22px;
@@ -711,18 +711,18 @@ body{
    flex-wrap: wrap;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main-cities{
   margin-top: 0;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .cities {     
   width: 153.15px;
 }
 }
 
-@media (max-width: 391px){
+@media (max-width: 430px){
     .cities img{
   width: 153.15px;
 }
@@ -733,12 +733,12 @@ body{
     align-items: center;
     gap: 24px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .cities-cat{
   gap: 17.93px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .cities-funf{
         display:  none;
 }
@@ -748,7 +748,7 @@ body{
     font-size: 20px;
     line-height: 28px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .cities-text{
   font-size: 14.93px;
 }
@@ -758,7 +758,7 @@ body{
     justify-content: space-between;
     gap: 32px; 
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main-two-columns{
    flex-wrap: wrap;
    gap: 12px;
@@ -770,7 +770,7 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
     .main-see-all-info{
     font-weight: 500;
     font-size: 10px;
@@ -799,7 +799,7 @@ body{
     padding-right: 10px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .main-info{
     width: 360.89px;
     gap: 14.93px;
@@ -810,7 +810,7 @@ body{
 .info-content{
     max-width: 364px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .info-content{
     width: 235.82px;  
 }
@@ -822,7 +822,7 @@ body{
     width:43px ;
     padding-bottom: 83px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .info-icon{
     width: 25.51px;
 }
@@ -848,7 +848,7 @@ body{
    margin-bottom: 0;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .info-title{
     font-weight: 500;
     font-size: 9.81px;
@@ -861,7 +861,7 @@ body{
     line-height: 24px;
     color: #212121;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .main-text-info{
     font-weight: 400;
     font-size: 9.96px;
@@ -878,7 +878,7 @@ body{
     padding-bottom: 64px;
     flex-wrap: wrap;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .article-img img{
     width: 341px;
 }
@@ -890,7 +890,7 @@ body{
     gap: 20px;
 }
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .article-content{
     width: 280px;
 }
@@ -903,7 +903,7 @@ body{
     font-size: 18px;
     line-height: 28px;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .article-title{
     font-weight: 600;
     font-size: 16px;
@@ -931,7 +931,7 @@ body{
 .art-search{
     font-weight: 400;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .art-search{
     font-size: 12px;
 }
@@ -951,7 +951,7 @@ body{
     padding-right: 50px;
 }
 }
-@media (max-width:391px){
+@media (max-width:430px){
    .footer{
     padding-left: 14px;
     padding-right: 14px;
@@ -965,7 +965,7 @@ body{
     border-bottom: 1px solid #F6F7F8;
 
 }
-@media (max-width:391px){
+@media (max-width:430px){
   .footer-top{
     gap: 6px;
     align-items: center;
@@ -990,7 +990,7 @@ body{
 
 
 }
-@media (max-width:391px){
+@media (max-width:430px){
   .footer-btn{
    height: 44px;
     width: 119px;
@@ -1065,7 +1065,7 @@ body{
  .footer-bottom-adaptation{
     display: none;
 }
-@media (max-width:391px){
+@media (max-width:430px){
   .footer-bottom-adaptation{
     display: block;
     padding-bottom: 36px;
@@ -1209,7 +1209,7 @@ body{
     height: 105px;
     overflow: hidden;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .eventimg{
     height: 64.5px;
 }
@@ -1240,7 +1240,7 @@ body{
     line-height: 24px;
     color: #212121;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .card-title{
     font-weight: 500;
     font-size: 9.81px;
@@ -1253,7 +1253,7 @@ body{
     line-height: 20px;
     color: #707070;
 }
-@media (max-width: 391px){
+@media (max-width: 430px){
    .card-text{
     font-weight:400;
     font-size: 8.58px;
